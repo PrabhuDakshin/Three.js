@@ -17,11 +17,11 @@ scene.add(cube);
 
 cube.position.z = -3;
 cube.rotation.x = 10;
-cube.rotation.y = -1;
+//cube.rotation.y = -1;
 
 var animate = () => {
     cube.rotation.x += .01;
-    cube.rotation.y += .01;
+    //cube.rotation.y += .01;
 
     renderer.render(scene, camera);
     requestAnimationFrame(animate);
